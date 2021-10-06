@@ -1,0 +1,10 @@
+.pos_container {
+    background-color: lightcyan;
+    border-radius: 5px;
+    border: solid 2px lightskyblue
+}
+
+.pos_content {
+    padding: 10px;
+    color: cornflowerblue
+}
