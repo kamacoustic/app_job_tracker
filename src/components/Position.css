@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 .pos_container {
     background-color: lightcyan;
     border-radius: 5px;
-    border: solid 2px lightskyblue
+    border: solid 2px lightskyblue;
+    margin-bottom: 1vh;
 }
 
 .pos_content {
     padding: 10px;
-    color: cornflowerblue
+    color: cornflowerblue;
+    font-family: 'Oswold', sans-serif;
+}
+
+#date {
+    font-style: italic;
 }

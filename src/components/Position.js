@@ -1,17 +1,17 @@
 import react from "react"; 
 import "./Position.css"
 
-const Position = () => {
+const Position = ({ title, company, summary, date}) => {
 
 
 
     return (
         <div className="pos_container">
             <div className="pos_content">
-                <h1 id="title">Trainer</h1>
-                <h2 id="company">SIC INC.</h2>
-                <p id="summary">Seeking technical trainer</p>
-                <p id="date">10-6-2021</p>
+                <h1 id="title">{title}</h1>
+                <h2 id="company">{company}</h2>
+                <p id="summary">{summary}</p>
+                <p id="date"> {`Applied on: ${date}`}</p>
             </div>
         </div>
     )
