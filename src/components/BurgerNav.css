@@ -1,0 +1,31 @@
+.bNav {
+ display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .bm-overlay {
+        height: 100vh;
+        width: 50vh;
+        background-color: powderblue !important;
+        z-index: 1;
+    }
+
+     .bNav {
+        position: fixed !important;
+        width: 36px;
+        height: 30px;
+        left: 36px;
+        top: 36px;
+    }
+
+    #avatar {
+        margin-left: 75px;
+    }
+
+    .burgernav_container  .nav_link {
+        display: block;
+    }
+
+}
